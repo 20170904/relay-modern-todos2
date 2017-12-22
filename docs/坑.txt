@@ -1,0 +1,22 @@
+
+0. relay query 变动, 没有重新编译!
+
+解决: brew install watchman
+https://facebook.github.io/watchman/docs/install.html
+
+
+
+
+1. watchman 报错
+Error: --watch requires that the src directory have a valid watchman "root" file.
+Root files can include:
+- A .git/ Git folder
+- A .hg/ Mercurial folder
+- A .watchmanconfig file
+
+解决: git init或者添加.watchmanconfig
+
+
+
+
+2. 部署代理

@@ -1,0 +1,455 @@
+body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}a{color:#00B7FF}
+
+[md-theme="default"] md-content.md-hue-1,
+md-content.md-default-theme.md-hue-1 {
+    color: rgba(0,0,0,0.87);
+    background-color: rgb(255,255,255);
+}
+
+[md-theme="default"] md-content.md-hue-2,
+md-content.md-default-theme.md-hue-2 {
+    color: rgba(0,0,0,0.87);
+    background-color: rgb(245,245,245);
+}
+
+[md-theme="default"] md-content.md-hue-3,
+ md-content.md-default-theme.md-hue-3 {
+    color: rgba(0,0,0,0.87);
+    background-color: rgb(224,224,224);
+}
+
+/* Text Colors */
+[md-theme="default"] a {
+    color: rgb(3,155,229);
+}
+
+[md-theme="default"] .secondary-text,
+[md-theme="default"] .icon {
+    color: rgba(0,0,0,0.54);
+}
+
+[md-theme="default"] .hint-text,
+[md-theme="default"] .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .fade-text,
+[md-theme="default"] .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Primary */
+[md-theme="default"] .md-primary-bg {
+    background-color: rgb(45,50,62);
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-primary-bg .secondary-text,
+[md-theme="default"] .md-primary-bg .icon {
+    color: rgba(255,255,255,0.7);
+}
+
+[md-theme="default"] .md-primary-bg .hint-text,
+[md-theme="default"] .md-primary-bg .disabled-text {
+    color: rgba(255,255,255,0.3);
+}
+
+[md-theme="default"] .md-primary-bg .fade-text,
+[md-theme="default"] .md-primary-bg .divider {
+    color: rgba(255,255,255,0.12);
+}
+
+/* Primary, Hue-1 */
+[md-theme="default"] .md-primary-bg.md-hue-1 {
+    background-color: rgb(60,66,82);
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-1 .secondary-text,
+[md-theme="default"] .md-primary-bg.md-hue-1 .icon {
+    color: rgba(255,255,255,0.7);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-1 .hint-text,
+[md-theme="default"] .md-primary-bg.md-hue-1 .disabled-text {
+    color: rgba(255,255,255,0.3);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-1 .fade-text,
+[md-theme="default"] .md-primary-bg.md-hue-1 .divider {
+    color: rgba(255,255,255,0.12);
+}
+
+/* Primary, Hue-2 */
+[md-theme="default"] .md-primary-bg.md-hue-2 {
+    background-color: rgb(53,58,72);
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-2 .secondary-text,
+[md-theme="default"] .md-primary-bg.md-hue-2 .icon {
+    color: rgba(255,255,255,0.7);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-2 .hint-text,
+[md-theme="default"] .md-primary-bg.md-hue-2 .disabled-text {
+    color: rgba(255,255,255,0.3);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-2 .fade-text,
+[md-theme="default"] .md-primary-bg.md-hue-2 .divider {
+    color: rgba(255,255,255,0.12);
+}
+
+/* Primary, Hue-3 */
+[md-theme="default"] .md-primary-bg.md-hue-3 {
+    background-color: rgb(92,97,111);
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-3 .secondary-text,
+[md-theme="default"] .md-primary-bg.md-hue-3 .icon {
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-3 .hint-text,
+[md-theme="default"] .md-primary-bg.md-hue-3 .disabled-text {
+    color: rgba(255,255,255,0.3);
+}
+
+[md-theme="default"] .md-primary-bg.md-hue-3 .fade-text,
+[md-theme="default"] .md-primary-bg.md-hue-3 .divider {
+    color: rgba(255,255,255,0.12);
+}
+
+/* Primary foreground */
+[md-theme="default"] .md-primary-fg {
+    color: rgb(45,50,62) !important;
+}
+
+/* Primary foreground, Hue-1 */
+[md-theme="default"] .md-primary-fg.md-hue-1 {
+    color: rgb(60,66,82) !important;
+}
+
+/* Primary foreground, Hue-2 */
+[md-theme="default"] .md-primary-fg.md-hue-2 {
+    color: rgb(53,58,72) !important;
+}
+
+/* Primary foreground, Hue-3 */
+[md-theme="default"] .md-primary-fg.md-hue-3 {
+    color: rgb(92,97,111) !important;
+}
+
+/* Accent */
+[md-theme="default"] .md-accent-bg {
+    background-color: rgb(3,155,229);
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-accent-bg .secondary-text,
+[md-theme="default"] .md-accent-bg .icon {
+    color: rgba(255,255,255,0.7);
+}
+
+[md-theme="default"] .md-accent-bg .hint-text,
+[md-theme="default"] .md-accent-bg .disabled-text {
+    color: rgba(255,255,255,0.3);
+}
+
+[md-theme="default"] .md-accent-bg .fade-text,
+[md-theme="default"] .md-accent-bg .divider {
+    color: rgba(255,255,255,0.12);
+}
+
+/* Accent, Hue-1 */
+[md-theme="default"] .md-accent-bg.md-hue-1 {
+    background-color: rgb(41,182,246);
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-1 .secondary-text,
+[md-theme="default"] .md-accent-bg.md-hue-1 .icon {
+    color: rgba(0,0,0,0.54);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-1 .hint-text,
+[md-theme="default"] .md-accent-bg.md-hue-1 .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-1 .fade-text,
+[md-theme="default"] .md-accent-bg.md-hue-1 .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Accent, Hue-2 */
+[md-theme="default"] .md-accent-bg.md-hue-2 {
+    background-color: rgb(2,136,209);
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-2 .secondary-text,
+[md-theme="default"] .md-accent-bg.md-hue-2 .icon {
+    color: rgba(255,255,255,0.7);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-2 .hint-text,
+[md-theme="default"] .md-accent-bg.md-hue-2 .disabled-text {
+    color: rgba(255,255,255,0.3);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-2 .fade-text,
+[md-theme="default"] .md-accent-bg.md-hue-2 .divider {
+    color: rgba(255,255,255,0.12);
+}
+
+/* Accent, Hue-3 */
+[md-theme="default"] .md-accent-bg.md-hue-3 {
+    background-color: rgb(128,216,255);
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-3 .secondary-text,
+[md-theme="default"] .md-accent-bg.md-hue-3 .icon {
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-3 .hint-text,
+[md-theme="default"] .md-accent-bg.md-hue-3 .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .md-accent-bg.md-hue-3 .fade-text,
+[md-theme="default"] .md-accent-bg.md-hue-3 .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Accent foreground */
+[md-theme="default"] .md-accent-fg {
+    color: rgb(3,155,229) !important;
+}
+
+/* Accent foreground, Hue-1 */
+[md-theme="default"] .md-accent-fg.md-hue-1 {
+    color: rgb(41,182,246) !important;
+}
+
+/* Accent foreground, Hue-2 */
+[md-theme="default"] .md-accent-fg.md-hue-2 {
+    color: rgb(2,136,209) !important;
+}
+
+/* Accent foreground, Hue-3 */
+[md-theme="default"] .md-accent-fg.md-hue-3 {
+    color: rgb(128,216,255) !important;
+}
+
+/* Warn */
+[md-theme="default"] .md-warn-bg {
+    background-color: rgb(244,67,54);
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-warn-bg .secondary-text,
+[md-theme="default"] .md-warn-bg .icon {
+    color: rgba(255,255,255,0.7);
+}
+
+[md-theme="default"] .md-warn-bg .hint-text,
+[md-theme="default"] .md-warn-bg .disabled-text {
+    color: rgba(255,255,255,0.3);
+}
+
+[md-theme="default"] .md-warn-bg .fade-text,
+[md-theme="default"] .md-warn-bg .divider {
+    color: rgba(255,255,255,0.12);
+}
+
+/* Warn, Hue-1 */
+[md-theme="default"] .md-warn-bg.md-hue-1 {
+    background-color: rgb(229,115,115);
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-1 .secondary-text,
+[md-theme="default"] .md-warn-bg.md-hue-1 .icon {
+    color: rgba(0,0,0,0.54);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-1 .hint-text,
+[md-theme="default"] .md-warn-bg.md-hue-1 .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-1 .fade-text,
+[md-theme="default"] .md-warn-bg.md-hue-1 .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Warn, Hue-2 */
+[md-theme="default"] .md-warn-bg.md-hue-2 {
+    background-color: rgb(198,40,40);
+    color: rgba(255,255,255,1);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-2 .secondary-text,
+[md-theme="default"] .md-warn-bg.md-hue-2 .icon {
+    color: rgba(255,255,255,0.7);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-2 .hint-text,
+[md-theme="default"] .md-warn-bg.md-hue-2 .disabled-text {
+    color: rgba(255,255,255,0.3);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-2 .fade-text,
+[md-theme="default"] .md-warn-bg.md-hue-2 .divider {
+    color: rgba(255,255,255,0.12);
+}
+
+/* Warn, Hue-3 */
+[md-theme="default"] .md-warn-bg.md-hue-3 {
+    background-color: rgb(255,138,128);
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-3 .secondary-text,
+[md-theme="default"] .md-warn-bg.md-hue-3 .icon {
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-3 .hint-text,
+[md-theme="default"] .md-warn-bg.md-hue-3 .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .md-warn-bg.md-hue-3 .fade-text,
+[md-theme="default"] .md-warn-bg.md-hue-3 .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Warn foreground */
+[md-theme="default"] .md-warn-fg {
+    color: rgb(244,67,54) !important;
+}
+
+/* Warn foreground, Hue-1 */
+[md-theme="default"] .md-warn-fg.md-hue-1 {
+    color: rgb(229,115,115) !important;
+}
+
+/* Warn foreground, Hue-2 */
+[md-theme="default"] .md-warn-fg.md-hue-2 {
+    color: rgb(198,40,40) !important;
+}
+
+/* Warn foreground, Hue-3 */
+[md-theme="default"] .md-warn-fg.md-hue-3 {
+    color: rgb(255,138,128) !important;
+}
+
+/* Background */
+[md-theme="default"] .md-background-bg {
+    background-color: rgb(255,255,255);
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-background-bg .secondary-text,
+[md-theme="default"] .md-background-bg .icon {
+    color: rgba(0,0,0,0.54);
+}
+
+[md-theme="default"] .md-background-bg .hint-text,
+[md-theme="default"] .md-background-bg .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .md-background-bg .fade-text,
+[md-theme="default"] .md-background-bg .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Background, Hue-1 */
+[md-theme="default"] .md-background-bg.md-hue-1 {
+    background-color: rgb(255,255,255);
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-1 .secondary-text,
+[md-theme="default"] .md-background-bg.md-hue-1 .icon {
+    color: rgba(0,0,0,0.54);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-1 .hint-text,
+[md-theme="default"] .md-background-bg.md-hue-1 .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-1 .fade-text,
+[md-theme="default"] .md-background-bg.md-hue-1 .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Background, Hue-2 */
+[md-theme="default"] .md-background-bg.md-hue-2 {
+    background-color: rgb(245,245,245);
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-2 .secondary-text,
+[md-theme="default"] .md-background-bg.md-hue-2 .icon {
+    color: rgba(0,0,0,0.54);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-2 .hint-text,
+[md-theme="default"] .md-background-bg.md-hue-2 .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-2 .fade-text,
+[md-theme="default"] .md-background-bg.md-hue-2 .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Background, Hue-3 */
+[md-theme="default"] .md-background-bg.md-hue-3 {
+    background-color: rgb(224,224,224);
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-3 .secondary-text,
+[md-theme="default"] .md-background-bg.md-hue-3 .icon {
+    color: rgba(0,0,0,0.87);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-3 .hint-text,
+[md-theme="default"] .md-background-bg.md-hue-3 .disabled-text {
+    color: rgba(0,0,0,0.26);
+}
+
+[md-theme="default"] .md-background-bg.md-hue-3 .fade-text,
+[md-theme="default"] .md-background-bg.md-hue-3 .divider {
+    color: rgba(0,0,0,0.12);
+}
+
+/* Background foreground */
+[md-theme="default"] .md-background-fg {
+    color: rgb(255,255,255) !important;
+}
+
+/* Background foreground, Hue-1 */
+[md-theme="default"] .md-background-fg.md-hue-1 {
+    color: rgb(255,255,255) !important;
+}
+
+/* Background foreground, Hue-2 */
+[md-theme="default"] .md-background-fg.md-hue-2 {
+    color: rgb(245,245,245) !important;
+}
+
+/* Background foreground, Hue-3 */
+[md-theme="default"] .md-background-fg.md-hue-3 {
+    color: rgb(224,224,224) !important;
+}

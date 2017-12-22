@@ -1,0 +1,18 @@
+{
+  "presets": [
+   [
+     "env",
+     {
+       "es2015": {
+         "loose": true,
+         "modules": false
+       }
+     }
+   ],
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    ["relay"],
+  ]
+}

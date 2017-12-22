@@ -1,0 +1,24 @@
+1. 命名规范文档?
+Where Toolbar_viewer is the name of the fragment, by convention it uses the name of the file (Toolbar) + underscore + the name of property under which that data must become available via this.props.
+
+routes_ConsultList_Query，路由查询这个命名方式，routes_xx_Query，只有xx可以改动，其他是固定的
+
+
+2. 主题色自定义
+themes/default.less
+
+3. 全局样式
+themes/vars.less
+themes/index.less
+
+4. list
+
+5. form
+
+6. Css Modules
+
+
+查询
+条件查询
+
+https://facebook.github.io/relay/docs/en/relay-store.html

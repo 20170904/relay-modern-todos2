@@ -1,0 +1,14 @@
+logs
+*.log
+*.pid
+*.seed
+
+.npm
+node_modules
+/build
+__generated__
+.idea
+.DS_Store
+
+
+/client/common/
