@@ -4,7 +4,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Form.less';
-console.log(styles);
 
 import { Form, Input, Tooltip, Icon, Cascader, Select, Row, Col, Checkbox, Button, AutoComplete } from 'antd';
 const FormItem = Form.Item;

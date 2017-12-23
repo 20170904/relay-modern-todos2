@@ -153,7 +153,7 @@ module.exports = {
   resolve: {
     alias: {
       Alu: path.resolve(__dirname, 'client'),
-      AluClinic: path.resolve(__dirname)
+      AluClinic: path.resolve(__dirname),
     }
   },
   devServer: {
